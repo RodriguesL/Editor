@@ -27,7 +27,7 @@ public class ModeloEditor {
     public void redim() {
         estado.sair();
         tescala.toggle();
-        //estado = new EstadoEscala(this, tescala);
+        estado = new EstadoEscala(this, tescala);
     }
     
     public void retangulo() {
