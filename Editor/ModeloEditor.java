@@ -90,7 +90,7 @@ public class ModeloEditor {
     }
     
     public void apagar(){
-    	
+    	//só pra funcionar
     }
     
     public void feito(Comando c) {
