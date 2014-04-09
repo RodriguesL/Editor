@@ -40,6 +40,11 @@ public class Editor extends GuiApp {
 	           modelo.refazer();
 	        }
 	    }));
+	    componentes.add(new Botao(30, 350, 100, 30, "Apagar",  new Acao(){
+	        public void executa() {
+	           modelo.apagar();
+	        }
+	    }));
 	    componentes.add(new Canvas(160, 0, 800 - 160, 600, new ObservadorCanvas() {
 	        public void desenhar(Canvas c) {
 	            modelo.desenhar(c);
@@ -62,11 +67,11 @@ public class Editor extends GuiApp {
 	}
 
 	public int getLargura() {
-		return 800;
+		return 1024;
 	}
 
 	public int getAltura() {
-		return 600;
+		return 768;
 	}
 
 	public static void main(String[] args) {

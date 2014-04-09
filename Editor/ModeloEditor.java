@@ -89,6 +89,10 @@ public class ModeloEditor {
         }
     }
     
+    public void apagar(){
+    	
+    }
+    
     public void feito(Comando c) {
         feitos.push(c);
     }
